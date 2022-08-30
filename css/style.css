@@ -116,6 +116,15 @@ header {
     cursor: pointer;
 }
 
+#configs {
+    transform: rotate(0deg);
+    transition: .5s;
+}
+
+#configs.aberto {
+    transform: rotate(-90deg);
+}
+
 .modal-configuracoes {
     position: absolute;
     width: 14vw;
@@ -124,13 +133,18 @@ header {
     border: 0.1vh solid #000;
     top: 7.8vh;
     left: 28.5vw;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: opacity .5s;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .modal-configuracoes.aberto {
-    display: flex;
+    opacity: 1;
+    transition: opacity .5s;
+    pointer-events: all;
 }
 
 .idioma {
