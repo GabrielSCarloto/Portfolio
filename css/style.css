@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: 0;
+}
+
+@font-face {
+    font-family: 'SourceCode-regular';
+    src: url(/fonts/static/SourceCodePro-Regular.ttf);
+}
+
+body {
+    font-family: SourceCode-regular;
+    background-color: #FFF;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    height: 7.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 3px solid #5D9ADC;
+    line-height: 7.5vh;
+}
+
+.tag {
+    position: relative;
+    width:50vw;
+    height: 7.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: italic;
+}
+
+.name-tag {
+    position: relative;
+    width: 40vw;
+    height: 7.5vh;
+}
+
+.menu-desktop {
+    position: relative;
+    width: 50vw;
+    height: 7.5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.links {
+    position: relative;
+    width: 35vw;
+    height: 7.5vh;
+    font-size: 2vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a {
+    position: relative;
+    margin: auto;
+    text-decoration: none;
+    color: #000;
+}
+
+.links a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 20px;
+    left: 0;
+    background-color: #5D9ADC;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+}
+  
+.links a:hover:after {
+    transform: scaleX(1);
+}
+
+.configuracoes {
+    position: relative;
+    width: 5vw;
+    height: 7.5vh;
+    display: flex;
+}
+
+.configuracoes img {
+    width: 48px;
+    height: 48px;
+    margin: auto;
+    opacity: 50%;
+}
