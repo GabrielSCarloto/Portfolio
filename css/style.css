@@ -13,6 +13,11 @@
 body {
     font-family: SourceCode-regular;
     background-color: #FFF;
+    transition: .5s;
+}
+
+body.escuro {
+    background-color: #353535;
 }
 
 header {
@@ -22,7 +27,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 3px solid #5D9ADC;
+    border-bottom: 0.3vh solid #5D9ADC;
     line-height: 7.5vh;
 }
 
@@ -40,6 +45,12 @@ header {
     position: relative;
     width: 40vw;
     height: 7.5vh;
+    font-size: 2vh;
+    color: #000;
+}
+
+.name-tag.escuro {
+    color: #FFF;
 }
 
 .menu-desktop {
@@ -64,7 +75,6 @@ header {
     position: relative;
     margin: auto;
     text-decoration: none;
-    color: #000;
 }
 
 .links a:after {
@@ -72,8 +82,8 @@ header {
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 2px;
-    bottom: 20px;
+    height: 0.2vh;
+    bottom: 2vh;
     left: 0;
     background-color: #5D9ADC;
     transform-origin: center;
@@ -84,6 +94,14 @@ header {
     transform: scaleX(1);
 }
 
+.a1, .a2, .a3, .a4 {
+    color: #000;
+}
+
+.a1.escuro, .a2.escuro, .a3.escuro, .a4.escuro{
+    color: #FFF;
+}
+
 .configuracoes {
     position: relative;
     width: 5vw;
@@ -92,8 +110,101 @@ header {
 }
 
 .configuracoes img {
-    width: 48px;
-    height: 48px;
+    width: 3.25vw;
+    height: 6vh;
     margin: auto;
-    opacity: 50%;
+    cursor: pointer;
+}
+
+.modal-configuracoes {
+    position: absolute;
+    width: 14vw;
+    height: 12vh;
+    background-color: #FFF;
+    border: 0.1vh solid #000;
+    top: 7.8vh;
+    left: 28.5vw;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-configuracoes.aberto {
+    display: flex;
+}
+
+.idioma {
+    position: relative;
+    width: 14vw;
+    height: 6vh;
+    background-color: #FFF;
+    border-bottom: 0.1vh solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vh;
+}
+
+.tema {
+    position: relative;
+    width: 14vw;
+    height: 6vh;
+    background-color: #FFF;
+    border-bottom: 0.1vh solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    position: absolute;
+    width: 3vw;
+    height: 2vh;
+    background-color: #FFF;
+    border: 0.3vh solid #000;
+    border-radius: 3vh;
+    cursor: pointer;
+    top: 0.6vh;
+    transition: .5s;
+}
+
+.btn.escuro {
+    background-color: #000;
+}
+
+.btn:before {
+    content: '';
+    position: absolute;
+    width: 1vw;
+    height: 1.9vh;
+    background-color: #000;
+    border-radius: 0.5vw;
+    top: 0.98vh;
+    left: 0.1vw;
+    transform: translateY(-50%);
+    transition: left .5s;
+}
+
+.btn.escuro:before {
+    background-color: #FFF;
+    left: 2vw;
+}
+
+.light {
+    margin-top: 0.8vh;
+    display: flex;
+}
+
+.light.escuro {
+    display: none;
+}
+
+.dark {
+    margin-top: 0.8vh;
+    display: none;
+}
+
+.dark.escuro {
+    display: flex;
 }
