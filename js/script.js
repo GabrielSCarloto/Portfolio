@@ -23,6 +23,26 @@ en.onclick = function() {
     pt.classList.remove('selecionado');
 }
 
+$(function() {
+    $(".pt").click(function() {
+        // nav
+        $(".a1").text("Sobre mim");
+        $(".a2").text("Habilidades");
+        $(".a3").text("Projetos");
+        $(".a4").text("Contatos");
+    });
+});
+
+$(function() {
+    $(".en").click(function() {
+        // nav
+        $(".a1").text("About me");
+        $(".a2").text("Skills");
+        $(".a3").text("Projects");
+        $(".a4").text("Contact");
+    });
+});
+
 // Mudança de tema
 
 const btn = document.querySelector('.btn');
