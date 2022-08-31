@@ -8,6 +8,21 @@ configuracoes.onclick = function() {
     modal.classList.toggle('aberto');
 }
 
+// Mudança de idioma
+
+const pt = document.querySelector('.pt');
+const en = document.querySelector('.en');
+
+pt.onclick = function() {
+    this.classList.toggle('selecionado');
+    en.classList.remove('selecionado');
+}
+
+en.onclick = function() {
+    this.classList.toggle('selecionado');
+    pt.classList.remove('selecionado');
+}
+
 // Mudança de tema
 
 const btn = document.querySelector('.btn');

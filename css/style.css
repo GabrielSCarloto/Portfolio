@@ -160,6 +160,25 @@ header {
     font-size: 2.5vh;
 }
 
+.pt, .en {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    color: #000;
+}
+
+.pt.selecionado, .en.selecionado {
+    color: blueviolet;
+    pointer-events: none;
+}
+
+.pt img, .en img {
+    width: 2vw;
+    height: 4vh;
+}
+
 .tema {
     position: relative;
     width: 14vw;
@@ -169,6 +188,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 2vh;
 }
 
 .btn {
