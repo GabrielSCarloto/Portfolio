@@ -170,7 +170,7 @@ header {
 }
 
 .pt.selecionado, .en.selecionado {
-    color: blueviolet;
+    color: #9F9F9F;
     pointer-events: none;
 }
 
