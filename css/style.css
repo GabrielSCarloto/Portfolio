@@ -339,18 +339,19 @@ main {
     width: 13vw;
     height: 26vh;
     background-color: brown;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
 }
 
 .foto img {
     width: 13vw;
     height: 26vh;
     border-radius: 100%;
+    box-shadow: 1.2vw 1.7vh 2vw rgba(0, 0, 0, 0.25);
 }
 
 .cv {
     position: relative;
-    width: 15vw;
+    width: 13vw;
     height: 6vh;
     background-color: #353535;
     display: flex;
