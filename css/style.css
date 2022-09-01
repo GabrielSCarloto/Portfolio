@@ -325,23 +325,29 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #000;
+}
+
+.resumo-text.escuro {
+    color: #FFF;
 }
 
 .developer {
     position: relative;
-    width: 21vw;
+    width: 22vw;
     height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.developer {
+.developer-text {
     position: relative;
-    width: 21vw;
+    width: 22vw;
     height: 15vh;
     font-family: SourceCode-bold;
     font-size: 5.4vh;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -358,7 +364,7 @@ main {
     justify-content: space-around;
 }
 
-.stack {
+.stack1, .stack2, .stack3 {
     position: relative;
     width: 10vw;
     height: 3vh;
@@ -370,11 +376,15 @@ main {
     font-size: 2vh;
 }
 
+.stack1.escuro, .stack2.escuro, .stack3.escuro, .cv.escuro {
+    background-color: #212121;
+}
+
 .foto {
     position: relative;
     width: 13vw;
     height: 26vh;
-    margin-bottom: 3vh;
+    margin-bottom: 4vh;
 }
 
 .foto img {

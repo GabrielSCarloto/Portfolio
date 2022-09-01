@@ -30,6 +30,9 @@ $(function() {
         $(".a2").text("Habilidades");
         $(".a3").text("Projetos");
         $(".a4").text("Contatos");
+        $(".resumo-text").text("Olá, tudo bem? Eu sou o Gabriel");
+        $(".developer-text").text("Desenvolvedor\nFull Stack Jr");
+        $(".cv-text").text("Baixar CV");
     });
 });
 
@@ -40,6 +43,9 @@ $(function() {
         $(".a2").text("Skills");
         $(".a3").text("Projects");
         $(".a4").text("Contact");
+        $(".resumo-text").text("Hello, how are you? I’m Gabriel");
+        $(".developer-text").text("Jr Full Stack\nDeveloper");
+        $(".cv-text").text("Download CV");
     });
 });
 
@@ -56,6 +62,11 @@ const a3 = document.querySelector('.a3');
 const a4 = document.querySelector('.a4');
 const light = document.querySelector(".light");
 const dark = document.querySelector(".dark");
+const resumoText = document.querySelector('.resumo-text');
+const stack1 = document.querySelector('.stack1');
+const stack2 = document.querySelector('.stack2');
+const stack3 = document.querySelector('.stack3');
+const cv = document.querySelector('.cv');
 
 btn.onclick = function() {
     this.classList.toggle('escuro');
@@ -69,4 +80,9 @@ btn.onclick = function() {
     a2.classList.toggle('escuro');
     a3.classList.toggle('escuro');
     a4.classList.toggle('escuro');
+    resumoText.classList.toggle('escuro');
+    stack1.classList.toggle('escuro');
+    stack2.classList.toggle('escuro');
+    stack3.classList.toggle('escuro');
+    cv.classList.toggle('escuro');
 }
