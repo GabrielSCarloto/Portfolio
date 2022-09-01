@@ -10,6 +10,16 @@
     src: url(/fonts/static/SourceCodePro-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'SourceCode-mediumitalic';
+    src: url(/fonts/static/SourceCodePro-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'SourceCode-bold';
+    src: url(/fonts/static/SourceCodePro-Bold.ttf);
+}
+
 body {
     width: 100vw;
     height: auto;
@@ -51,6 +61,7 @@ header {
     position: relative;
     width: 40vw;
     height: 7.5vh;
+    font-family: SourceCode-mediumitalic;
     font-size: 2vh;
     color: #000;
 }
@@ -253,7 +264,6 @@ main {
     position: relative;
     width: 100vw;
     height: 180vh;
-    background-color: bisque;
     padding-top: 8vh;
 }
 
@@ -261,15 +271,14 @@ main {
     position: relative;
     width: 70vw;
     height: 65vh;
-    background-color: red;
-    margin: 12vh auto;
+    margin: 5vh auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.conteudo1-inicio, .conteudo2-inicio {
+.conteudo1-inicio {
     position: relative;
     width: 35vw;
     height: 60vh;
@@ -277,26 +286,42 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: blue;
-    border: 1px solid white;
+}
+
+.conteudo2-inicio {
+    position: relative;
+    width: 35vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .introducao {
     position: relative;
     width: 35vw;
-    height: 25vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: pink;
 }
 
 .resumo {
     position: relative;
     width: 35vw;
     height: 5vh;
-    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumo-text {
+    position: relative;
+    width: 35vw;
+    height: 5vh;
+    font-size: 3.6vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -304,12 +329,23 @@ main {
 
 .developer {
     position: relative;
-    width: 20vw;
-    height: 20vh;
-    background-color: antiquewhite;
+    width: 21vw;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.developer {
+    position: relative;
+    width: 21vw;
+    height: 15vh;
+    font-family: SourceCode-bold;
+    font-size: 5.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5D9ADC;
 }
 
 .servicos {
@@ -320,7 +356,6 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: blueviolet;
 }
 
 .stack {
@@ -332,13 +367,13 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 2vh;
 }
 
 .foto {
     position: relative;
     width: 13vw;
     height: 26vh;
-    background-color: brown;
     margin-bottom: 3vh;
 }
 
@@ -357,4 +392,14 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+}
+
+.cv-text {
+    font-size: 2.8vh;
+    color: #FFF;
+}
+
+.cv:hover {
+    transform: scale(1.05);
 }
