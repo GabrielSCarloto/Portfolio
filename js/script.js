@@ -48,6 +48,7 @@ $(function() {
 const btn = document.querySelector('.btn');
 const tema = document.querySelector('.tema');
 const body = document.querySelector('body');
+const header = document.querySelector('header');
 const nameTag = document.querySelector('.name-tag');
 const a1 = document.querySelector('.a1');
 const a2 = document.querySelector('.a2');
@@ -62,6 +63,7 @@ btn.onclick = function() {
     dark.classList.toggle('escuro');
     tema.classList.toggle('escuro');
     body.classList.toggle('escuro');
+    header.classList.toggle('escuro');
     nameTag.classList.toggle('escuro');
     a1.classList.toggle('escuro');
     a2.classList.toggle('escuro');

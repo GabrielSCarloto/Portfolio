@@ -11,24 +11,30 @@
 }
 
 body {
+    width: 100vw;
+    height: auto;
     font-family: SourceCode-regular;
     background-color: #FFF;
     transition: .5s;
+    overflow-x: hidden;
 }
 
-body.escuro {
+body.escuro, header.escuro {
     background-color: #353535;
 }
 
 header {
     position: fixed;
+    z-index: 5;
     width: 100vw;
     height: 7.5vh;
     display: flex;
+    background-color: #FFF;
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 0.3vh solid #5D9ADC;
     line-height: 7.5vh;
+    transition: .5s;
 }
 
 .tag {
@@ -241,4 +247,113 @@ header {
 
 .dark.escuro {
     display: flex;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 180vh;
+    background-color: bisque;
+    padding-top: 8vh;
+}
+
+.inicio {
+    position: relative;
+    width: 70vw;
+    height: 65vh;
+    background-color: red;
+    margin: 12vh auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo1-inicio, .conteudo2-inicio {
+    position: relative;
+    width: 35vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    border: 1px solid white;
+}
+
+.introducao {
+    position: relative;
+    width: 35vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+}
+
+.resumo {
+    position: relative;
+    width: 35vw;
+    height: 5vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.developer {
+    position: relative;
+    width: 20vw;
+    height: 20vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos {
+    position: relative;
+    width: 35vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blueviolet;
+}
+
+.stack {
+    position: relative;
+    width: 10vw;
+    height: 3vh;
+    background-color: #353535;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    position: relative;
+    width: 13vw;
+    height: 26vh;
+    background-color: brown;
+    margin-bottom: 5vh;
+}
+
+.foto img {
+    width: 13vw;
+    height: 26vh;
+    border-radius: 100%;
+}
+
+.cv {
+    position: relative;
+    width: 15vw;
+    height: 6vh;
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
