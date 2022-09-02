@@ -8,6 +8,43 @@ configuracoes.onclick = function() {
     modal.classList.toggle('aberto');
 }
 
+// Scroll Reveal
+
+window.sr = ScrollReveal({reset: true})
+
+ScrollReveal().reveal('.texto1', {
+    delay: 900,
+    rotate: {
+        x: 100,
+        y: 0,
+        z: 0
+    }
+});
+ScrollReveal().reveal('.texto2', {
+    delay: 900,
+    rotate: {
+        x: 100,
+        y: 0,
+        z: 0
+    }
+});
+ScrollReveal().reveal('.texto3', {
+    delay: 900,
+    rotate: {
+        x: 100,
+        y: 0,
+        z: 0
+    }
+});
+ScrollReveal().reveal('.texto4', {
+    delay: 900,
+    rotate: {
+        x: 100,
+        y: 0,
+        z: 0
+    }
+});
+
 // Mudança de idioma
 
 const pt = document.querySelector('.pt');
@@ -25,7 +62,6 @@ en.onclick = function() {
 
 $(function() {
     $(".pt").click(function() {
-        // nav
         $(".a1").text("Sobre mim");
         $(".a2").text("Habilidades");
         $(".a3").text("Projetos");
@@ -44,7 +80,6 @@ $(function() {
 
 $(function() {
     $(".en").click(function() {
-        // nav
         $(".a1").text("About me");
         $(".a2").text("Skills");
         $(".a3").text("Projects");
