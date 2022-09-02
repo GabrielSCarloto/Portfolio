@@ -67,6 +67,7 @@ const stack1 = document.querySelector('.stack1');
 const stack2 = document.querySelector('.stack2');
 const stack3 = document.querySelector('.stack3');
 const cv = document.querySelector('.cv');
+const tituloSobreMim = document.querySelector(".titulo-sobre-mim")
 
 btn.onclick = function() {
     this.classList.toggle('escuro');
@@ -85,4 +86,5 @@ btn.onclick = function() {
     stack2.classList.toggle('escuro');
     stack3.classList.toggle('escuro');
     cv.classList.toggle('escuro');
+    tituloSobreMim.classList.toggle('escuro');
 }
