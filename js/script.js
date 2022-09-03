@@ -20,6 +20,7 @@ ScrollReveal().reveal('.texto1', {
         z: 0
     }
 });
+
 ScrollReveal().reveal('.texto2', {
     delay: 900,
     rotate: {
@@ -28,6 +29,7 @@ ScrollReveal().reveal('.texto2', {
         z: 0
     }
 });
+
 ScrollReveal().reveal('.texto3', {
     delay: 900,
     rotate: {
@@ -36,6 +38,7 @@ ScrollReveal().reveal('.texto3', {
         z: 0
     }
 });
+
 ScrollReveal().reveal('.texto4', {
     delay: 900,
     rotate: {

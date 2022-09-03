@@ -503,6 +503,23 @@ main {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circle {
+    0% {
+        transform:rotate(0deg)
+                  translate(-5px)
+                  rotate(0deg);
+      
+    }
+    100% {
+        transform:rotate(360deg)
+                  translate(-5px)
+                  rotate(-360deg);
+    }
 }
 
 .img-texto1 img {
