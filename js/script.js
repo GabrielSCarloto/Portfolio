@@ -74,8 +74,8 @@ $(function() {
         $(".cv-text").text("Baixar CV");
         $(".titulo-sobre-mim").text("SOBRE");
         $(".titulo-blue").text("MIM");
-        $(".conteudo-texto1").text("Tenho 18 anos e sempre tive contato com tecnologia. Meus estudos na área começaram em 2021 e, tenho certeza que, continuarei estudando por um bom tempo para ser capaz de sempre entregar melhores resultados e inovações.");
-        $(".conteudo-texto2").text("Conclui o Ensino Médio no ano de 2021. Pretendo no futuro cursar Ciências da Computação ou Análise e Desenvolvimento de Sistemas.");
+        $(".conteudo-texto1").text("Tenho 19 anos e sempre tive contato com tecnologia. Meus estudos na área começaram em 2021 e, tenho certeza que, continuarei estudando por um bom tempo para ser capaz de sempre entregar melhores resultados e inovações.");
+        $(".conteudo-texto2").text("Conclui o Ensino Médio no ano de 2021. E em 2023, iniciarei a graduação em Ciência da Computação na Universidade Presbiteriana Mackenzie, na condição de bolsista integral.");
         $(".conteudo-texto3").text("No começo de 2022 iniciei meus estudo no Instituto Proa, algo que me orgulho muito. Lá desenvolvi várias habilidades que você verá mais para baixo. Hoje, já conclui meu curso e estou estudando através da Udemy e tutoriais no Youtube.");
         $(".conteudo-texto4").text("Falando um pouco sobre hobbies, os meus são: jogar basquete e futebol, assistir séries e podcasts, jogar games e escutar música.");
     });
@@ -92,8 +92,8 @@ $(function() {
         $(".cv-text").text("Download CV");
         $(".titulo-sobre-mim").text("ABOUT");
         $(".titulo-blue").text("ME");
-        $(".conteudo-texto1").text("I am 18 years old and have always had contact with technology. My studies in the area started in 2021 and, I'm sure, I will continue studying for a long time to be able to always deliver better results and innovations.");
-        $(".conteudo-texto2").text("I finished high school in 2021. In the future I intend to study Computer Science or Systems Analysis and Development.");
+        $(".conteudo-texto1").text("I am 19 years old and have always had contact with technology. My studies in the area started in 2021 and, I'm sure, I will continue studying for a long time to be able to always deliver better results and innovations.");
+        $(".conteudo-texto2").text("I finished high school in 2021. In 2023, I will start my degree in Computer Science at Universidade Presbiteriana Mackenzie.");
         $(".conteudo-texto3").text("At the beginning of 2022 I started my studies at Instituto Proa, I am very proud of this. In this period I developed several skills that you will see below. Today, I have completed my course and I am studying through Udemy and YouTube tutorials.");
         $(".conteudo-texto4").text("Talking a little about hobbies, mine are: playing basketball and football, watching series and podcasts, playing games and listening to music.");
     });
