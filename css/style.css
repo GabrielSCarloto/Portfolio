@@ -570,3 +570,46 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.habilidades {
+    position: relative;
+    background-color: #5D9ADC;
+    width: 100vw;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades-sociais {
+    position: relative;
+    background-color: yellow;
+    width: 75vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.habilidades-sociais-titulo {
+    position: relative;
+    background-color: green;
+    width: 40vw;
+    height: 10vh;
+}
+
+.habilidades-sociais-titulo p, .habilidades-tecnicas-titulo p {
+    font-size: 5.4vh;
+    font-family: SourceCode-bold;
+}
+
+.habilidades-tecnicas {
+    position: relative;
+    background-color: red;
+    width: 75vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
