@@ -581,7 +581,7 @@ main {
     align-items: center;
 }
 
-.habilidades-sociais {
+.habilidades-sociais, .habilidades-tecnicas {
     position: relative;
     width: 75vw;
     height: 90vh;
@@ -596,7 +596,7 @@ main {
     height: 7.5vh;
 }
 
-.sociais-cards {
+.sociais-cards, .tecnicas-cards {
     position: relative;
     width: 75vw;
     height: 80vh;
@@ -605,7 +605,7 @@ main {
     align-items: center;
 }
 
-.container-sociais {
+.container-sociais, .container-tecnicas {
     position: relative;
     width: 70vw;
     height: 75vh;
@@ -619,6 +619,9 @@ main {
     position: relative;
     width: 1vw;
     height:4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .seta-esquerda:hover, .seta-direita:hover {
@@ -633,12 +636,12 @@ main {
     height:4vh;
 }
 
-.s-cards1 {
+.s-cards1, .s-cards2, .s-cards3, .t-cards1, .t-cards2, .t-cards3 {
     position: relative;
     width: 20vw;
     height: 60vh;
     border-radius: 2vh;
-    background-color: #505050;
+    background-color: #707070;
     box-shadow: -2.2vh 2.2vh 1.5vh rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
@@ -646,19 +649,19 @@ main {
     align-items: center;
 }
 
-.s-cards1-img {
+.s-cards-img, .t-cards-img {
     position: relative;
     width: 11vw;
     height: 24vh;
 }
 
-.s-cards1-img img{
+.s-cards-img img, .t-cards-img img {
     position: relative;
     width: 11vw;
     height: 24vh;
 }
 
-.s-cards1-nome {
+.s-cards-nome, .t-cards-nome {
     position: relative;
     width: 12vw;
     height: 7.5vh;
@@ -667,14 +670,14 @@ main {
     align-items: center;
 }
 
-.s-cards1-nome p {
+.s-cards-nome p, .t-cards-nome p {
     font-family: SourceCode-bold;
     font-size: 2vw;
     text-align: center;
     color: #FFF;
 }
 
-.s-cards1-star {
+.s-cards-star, .t-cards-star {
     position: relative;
     width: 16vw;
     height: 7.5vh;
@@ -683,7 +686,7 @@ main {
     justify-content: space-between;
 }
 
-.s-cards1-star img {
+.s-cards-star img, .t-cards-star img {
     position: relative;
     width:2.5vw;
     height: 4.5vh;
@@ -694,12 +697,15 @@ main {
     font-family: SourceCode-bold;
 }
 
-.habilidades-tecnicas {
+.s-cards4, .t-cards4 {
     position: relative;
-    background-color: red;
-    width: 75vw;
-    height: 90vh;
-    display: flex;
+    width: 20vw;
+    height: 60vh;
+    border-radius: 2vh;
+    background-color: #707070;
+    box-shadow: -2.2vh 2.2vh 1.5vh rgba(0, 0, 0, 0.25);
+    display: none;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
 }
