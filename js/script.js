@@ -122,6 +122,24 @@ const conteudoTexto1 = document.querySelector(".conteudo-texto1");
 const conteudoTexto2 = document.querySelector(".conteudo-texto2");
 const conteudoTexto3 = document.querySelector(".conteudo-texto3");
 const conteudoTexto4 = document.querySelector(".conteudo-texto4");
+const sociaisTitulo = document.querySelector(".habilidades-sociais-titulo");
+const tecnicasTitulo = document.querySelector(".habilidades-tecnicas-titulo");
+const sCard1 = document.querySelector(".s-cards1");
+const sCard2 = document.querySelector(".s-cards2");
+const sCard3 = document.querySelector(".s-cards3");
+const sCard4 = document.querySelector(".s-cards4");
+const tCard1 = document.querySelector(".t-cards1");
+const tCard2 = document.querySelector(".t-cards2");
+const tCard3 = document.querySelector(".t-cards3");
+const tCard4 = document.querySelector(".t-cards4");
+const etiqueta1 = document.querySelector(".etiqueta-card1");
+const etiqueta2 = document.querySelector(".etiqueta-card2");
+const etiqueta3 = document.querySelector(".etiqueta-card3");
+const etiqueta4 = document.querySelector(".etiqueta-card4");
+const setaEsquerda1 = document.querySelector(".seta-esquerda1");
+const setaDireita1 = document.querySelector(".seta-direita1");
+const setaEsquerda2 = document.querySelector(".seta-esquerda2");
+const setaDireita2 = document.querySelector(".seta-direita2");
 
 btn.onclick = function() {
     this.classList.toggle('escuro');
@@ -145,4 +163,22 @@ btn.onclick = function() {
     conteudoTexto2.classList.toggle('escuro');
     conteudoTexto3.classList.toggle('escuro');
     conteudoTexto4.classList.toggle('escuro');
+    sociaisTitulo.classList.toggle('escuro');
+    tecnicasTitulo.classList.toggle('escuro');
+    sCard1.classList.toggle('escuro');
+    sCard2.classList.toggle('escuro');
+    sCard3.classList.toggle('escuro');
+    sCard4.classList.toggle('escuro');
+    tCard1.classList.toggle('escuro');
+    tCard2.classList.toggle('escuro');
+    tCard3.classList.toggle('escuro');
+    tCard4.classList.toggle('escuro');
+    etiqueta1.classList.toggle('escuro');
+    etiqueta2.classList.toggle('escuro');
+    etiqueta3.classList.toggle('escuro');
+    etiqueta4.classList.toggle('escuro');
+    setaEsquerda1.classList.toggle('escuro');
+    setaDireita1.classList.toggle('escuro');
+    setaEsquerda2.classList.toggle('escuro');
+    setaDireita2.classList.toggle('escuro');
 }
