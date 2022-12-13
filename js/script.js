@@ -63,6 +63,8 @@ en.onclick = function() {
     pt.classList.remove('selecionado');
 }
 
+var TextoComplementar = "&nbsp;";
+
 $(function() {
     $(".pt").click(function() {
         $(".a1").text("Sobre mim");
@@ -78,6 +80,14 @@ $(function() {
         $(".conteudo-texto2").text("Conclui o Ensino Médio no ano de 2021. E em 2023, iniciarei a graduação em Ciência da Computação na Universidade Presbiteriana Mackenzie, na condição de bolsista integral.");
         $(".conteudo-texto3").text("No começo de 2022 iniciei meus estudo no Instituto Proa, algo que me orgulho muito. Lá desenvolvi várias habilidades que você verá mais para baixo. Hoje, já conclui meu curso e estou estudando através da Udemy e tutoriais no Youtube.");
         $(".conteudo-texto4").text("Falando um pouco sobre hobbies, os meus são: jogar basquete e futebol, assistir séries e podcasts, jogar games e escutar música.");
+        $(".hst").text("Habilidades");
+        $(".hst-azul").text("Sociais");
+        $(".htt").text("Habilidades");
+        $(".htt-azul").text("Técnicas");
+        $(".team-work").text("Trabalho em equipe");
+        $(".english").text("Inglês");
+        $(".communication").text("Comunicação");
+        $(".learning").text("Aprendizagem Contínua");
     });
 });
 
@@ -96,6 +106,14 @@ $(function() {
         $(".conteudo-texto2").text("I finished high school in 2021. In 2023, I will start my degree in Computer Science at Universidade Presbiteriana Mackenzie.");
         $(".conteudo-texto3").text("At the beginning of 2022 I started my studies at Instituto Proa, I am very proud of this. In this period I developed several skills that you will see below. Today, I have completed my course and I am studying through Udemy and YouTube tutorials.");
         $(".conteudo-texto4").text("Talking a little about hobbies, mine are: playing basketball and football, watching series and podcasts, playing games and listening to music.");
+        $(".hst").text("Soft");
+        $(".hst-azul").text("Skills");
+        $(".htt").text("Hard");
+        $(".htt-azul").text("Skills");
+        $(".team-work").text("Team Work");
+        $(".english").text("English");
+        $(".communication").text("Communication");
+        $(".learning").text("Continuous Learning");
     });
 });
 
