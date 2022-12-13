@@ -63,8 +63,6 @@ en.onclick = function() {
     pt.classList.remove('selecionado');
 }
 
-var TextoComplementar = "&nbsp;";
-
 $(function() {
     $(".pt").click(function() {
         $(".a1").text("Sobre mim");
