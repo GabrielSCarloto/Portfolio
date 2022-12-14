@@ -86,6 +86,8 @@ $(function() {
         $(".english").text("Inglês");
         $(".communication").text("Comunicação");
         $(".learning").text("Aprendizagem Contínua");
+        $(".projetot").text("Meus");
+        $(".projetot-azul").text("Projetos");
     });
 });
 
@@ -112,6 +114,8 @@ $(function() {
         $(".english").text("English");
         $(".communication").text("Communication");
         $(".learning").text("Continuous Learning");
+        $(".projetot").text("My");
+        $(".projetot-azul").text("Projects");
     });
 });
 
@@ -156,6 +160,7 @@ const setaEsquerda1 = document.querySelector(".seta-esquerda1");
 const setaDireita1 = document.querySelector(".seta-direita1");
 const setaEsquerda2 = document.querySelector(".seta-esquerda2");
 const setaDireita2 = document.querySelector(".seta-direita2");
+const projetosTitulo = document.querySelector(".projetos-titulo");
 
 btn.onclick = function() {
     this.classList.toggle('escuro');
@@ -197,4 +202,5 @@ btn.onclick = function() {
     setaDireita1.classList.toggle('escuro');
     setaEsquerda2.classList.toggle('escuro');
     setaDireita2.classList.toggle('escuro');
+    projetosTitulo.classList.toggle('escuro');
 }
